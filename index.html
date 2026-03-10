@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>cmps3160</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Data Science Project</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7828,10 +7828,31 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Project-Datasets"><strong>Project Datasets</strong><a class="anchor-link" href="#Project-Datasets">¶</a></h3><p>The datasets we are considering are the Billboard Hot 100 chart history, the Spotify Tracks Dataset 1921-2020, and the GDP-Based Recession Indicator from the Federal Reserve Bank of St. Louis (FRED).</p>
-<p>We are interested in these datasets because they allow us to examine a question at the intersection of economics and music culture: does economic downturn change what music Americans listen to?</p>
+<h3 id="Project-Datasets"><strong>Project Datasets</strong><a class="anchor-link" href="#Project-Datasets">¶</a></h3><p>The datasets we are considering are:</p>
+<p><strong>Dataset 1:</strong> Billboard Hot 100
+Source: <a href="https://www.kaggle.com/datasets/dhruvildave/billboard-the-hot-100-songs">https://www.kaggle.com/datasets/dhruvildave/billboard-the-hot-100-songs</a></p>
+<p><strong>Dataset 2:</strong> Spotify Tracks 1921-2020
+Source: <a href="https://www.kaggle.com/datasets/yamaerenay/spotify-dataset-19212020-600k-tracks">https://www.kaggle.com/datasets/yamaerenay/spotify-dataset-19212020-600k-tracks</a></p>
+<p><strong>Dataset 3:</strong> GDP-Based Recession Indicator (FRED)
+Source: <a href="https://fred.stlouisfed.org/series/JHDUSRGDPBR">https://fred.stlouisfed.org/series/JHDUSRGDPBR</a></p>
 <p>The Billboard Hot 100, published weekly since 1958, records which songs were most popular in the United States at any given time. The Spotify Tracks Dataset provides audio features including valence, energy, and danceability for over 600,000 real tracks sourced from Spotify's API. The FRED recession indicator marks which quarters were classified as recessions based on GDP data, serving as our economic anchor.</p>
 <p>By combining these three datasets, we aim to answer our central question: do Americans gravitate toward sadder, lower-energy music during economic downturns? We can also explore whether certain audio features shift more than others, and whether any effect is immediate or lagged.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><strong>Dataset 1:</strong> Billboard Hot 100
+Source: <a href="https://www.kaggle.com/datasets/dhruvildave/billboard-the-hot-100-songs">https://www.kaggle.com/datasets/dhruvildave/billboard-the-hot-100-songs</a></p>
+<p><strong>Dataset 2:</strong> Spotify Tracks 1921-2020
+Source: <a href="https://www.kaggle.com/datasets/yamaerenay/spotify-dataset-19212020-600k-tracks">https://www.kaggle.com/datasets/yamaerenay/spotify-dataset-19212020-600k-tracks</a></p>
+<p><strong>Dataset 3:</strong> GDP-Based Recession Indicator (FRED)
+Source: <a href="https://fred.stlouisfed.org/series/JHDUSRGDPBR">https://fred.stlouisfed.org/series/JHDUSRGDPBR</a></p>
 </div>
 </div>
 </div>
@@ -7857,6 +7878,41 @@ a.anchor-link {
 </div>
 </div>
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-python"><pre><span></span><span class="o">%%</span><span class="n">shell</span>
+<span class="n">jupyter</span> <span class="n">nbconvert</span> <span class="o">--</span><span class="n">to</span> <span class="n">html</span> <span class="s1">'/content/drive/MyDrive/CMPS3160 Project/Data Science Project.ipynb'</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>[NbConvertApp] Converting notebook /content/drive/MyDrive/CMPS3160 Project/Data Science Project.ipynb to html
+[NbConvertApp] Writing 329690 bytes to /content/drive/MyDrive/CMPS3160 Project/Data Science Project.html
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre></pre>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -7873,7 +7929,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># Core libraries</span>
@@ -7904,7 +7960,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># Load the datasets</span>
@@ -7923,7 +7979,8 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Billboard-Top-100">Billboard Top 100<a class="anchor-link" href="#Billboard-Top-100">¶</a></h4>
+<h4 id="Billboard-Top-100"><a href="https://www.kaggle.com/datasets/dhruvildave/billboard-the-hot-100-songs">Billboard Top 100</a><a class="anchor-link" href="#Billboard-Top-100">¶</a></h4><p>The Hot 100 is compiled weekly by Billboard magazine using a combination of
+digital song sales, radio airplay, and streaming data across the United States. This dataset can help us identify whether songs stay on the Billboard Hot 100 longer during recession periods compared to periods of economic growth?</p>
 </div>
 </div>
 </div>
@@ -7943,7 +8000,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">"Shape:"</span><span class="p">,</span> <span class="n">billboard</span><span class="o">.</span><span class="n">shape</span><span class="p">,</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
@@ -7987,9 +8044,9 @@ dtype: int64
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[3]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div class="colab-df-container" id="df-472b5b4f-d3e1-4e5e-87d2-149fa1ea5433">
+<div class="colab-df-container" id="df-dc57d9ff-b3d9-4c8c-8bd1-bf4d839b3843">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -8123,7 +8180,7 @@ dtype: int64
 </div>
 <div class="colab-df-buttons">
 <div class="colab-df-container">
-<button class="colab-df-convert" onclick="convertToInteractive('df-472b5b4f-d3e1-4e5e-87d2-149fa1ea5433')" style="display:none;" title="Convert this dataframe to an interactive table.">
+<button class="colab-df-convert" onclick="convertToInteractive('df-dc57d9ff-b3d9-4c8c-8bd1-bf4d839b3843')" style="display:none;" title="Convert this dataframe to an interactive table.">
 <svg height="24px" viewbox="0 -960 960 960" xmlns="http://www.w3.org/2000/svg">
 <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"></path>
 </svg>
@@ -8170,12 +8227,12 @@ dtype: int64
   </style>
 <script>
       const buttonEl =
-        document.querySelector('#df-472b5b4f-d3e1-4e5e-87d2-149fa1ea5433 button.colab-df-convert');
+        document.querySelector('#df-dc57d9ff-b3d9-4c8c-8bd1-bf4d839b3843 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-472b5b4f-d3e1-4e5e-87d2-149fa1ea5433');
+        const element = document.querySelector('#df-dc57d9ff-b3d9-4c8c-8bd1-bf4d839b3843');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -8234,7 +8291,7 @@ dtype: int64
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># Convert date from string to datetime</span>
@@ -8260,7 +8317,7 @@ dtype: int64
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8327,7 +8384,7 @@ dtype: int64
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># Rename hyphen to underscore</span>
@@ -8379,6 +8436,498 @@ NaN count in last_week: 32312
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Spotify-Tracks-Dataset-1921-2020"><a href="https://www.kaggle.com/datasets/yamaerenay/spotify-dataset-19212020-600k-tracks">Spotify Tracks Dataset 1921-2020</a><a class="anchor-link" href="#Spotify-Tracks-Dataset-1921-2020">¶</a></h4><p>This dataset contains audio features for over 600,000 tracks sourced directly from Spotify's API, spanning nearly a century of recorded music. Each track includes attributes such as valence, energy, danceability, and popularity score. We will use this dataset to measure the emotional tone of popular songs over time.</p>
+<p>This dataset can help us answer questions such as whether the average valence of songs decrease during recession periods, suggesting a shift toward more negative or somber music?</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-python"><pre><span></span><span class="c1"># Preview Spotify dataset</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Shape:"</span><span class="p">,</span> <span class="n">songs</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">songs</span><span class="o">.</span><span class="n">dtypes</span><span class="p">)</span>
+<span class="n">songs</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Shape: (550622, 24)
+
+id                         object
+name                       object
+album_name                 object
+artists                    object
+danceability              float64
+energy                    float64
+key                         int64
+loudness                  float64
+mode                        int64
+speechiness               float64
+acousticness              float64
+instrumentalness          float64
+liveness                  float64
+valence                   float64
+tempo                     float64
+duration_ms                 int64
+lyrics                     object
+year                        int64
+genre                      object
+popularity                  int64
+total_artist_followers      int64
+avg_artist_popularity     float64
+artist_ids                 object
+niche_genres               object
+dtype: object
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div class="colab-df-container" id="df-9e5a878d-ce07-4521-84c6-95b3672c7e53">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>id</th>
+<th>name</th>
+<th>album_name</th>
+<th>artists</th>
+<th>danceability</th>
+<th>energy</th>
+<th>key</th>
+<th>loudness</th>
+<th>mode</th>
+<th>speechiness</th>
+<th>...</th>
+<th>tempo</th>
+<th>duration_ms</th>
+<th>lyrics</th>
+<th>year</th>
+<th>genre</th>
+<th>popularity</th>
+<th>total_artist_followers</th>
+<th>avg_artist_popularity</th>
+<th>artist_ids</th>
+<th>niche_genres</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>0Prct5TDjAnEgIqbxcldY9</td>
+<td>!</td>
+<td>UNDEN!ABLE</td>
+<td>["HELLYEAH"]</td>
+<td>0.415</td>
+<td>0.605</td>
+<td>7</td>
+<td>-11.157</td>
+<td>1</td>
+<td>0.0575</td>
+<td>...</td>
+<td>100.059</td>
+<td>79500</td>
+<td>He said he came from Jamaica,\nhe owned a coup...</td>
+<td>2016</td>
+<td>Rock</td>
+<td>0</td>
+<td>769490</td>
+<td>52.0</td>
+<td>["4hxDvVq5t8ebPYPdBl1F9f"]</td>
+<td>["groove metal", "metal"]</td>
+</tr>
+<tr>
+<th>1</th>
+<td>2ASl4wirkeYm3OWZxXKYuq</td>
+<td>!!</td>
+<td>Childhood Dreams</td>
+<td>["Yxngxr1"]</td>
+<td>0.788</td>
+<td>0.648</td>
+<td>7</td>
+<td>-9.135</td>
+<td>0</td>
+<td>0.3150</td>
+<td>...</td>
+<td>79.998</td>
+<td>114000</td>
+<td>Fuck the bitch, now she running with my kids\n...</td>
+<td>2019</td>
+<td>Hip-Hop</td>
+<td>29</td>
+<td>143628</td>
+<td>45.0</td>
+<td>["2jwRHcdgkRhelYEMqndDKe"]</td>
+<td>[]</td>
+</tr>
+<tr>
+<th>2</th>
+<td>5tA3ImW310llKo8EMBj2Ga</td>
+<td>!!Noble Stabbings!!</td>
+<td>Situationist Comedy</td>
+<td>["Dillinger Four"]</td>
+<td>0.171</td>
+<td>0.957</td>
+<td>2</td>
+<td>-5.749</td>
+<td>1</td>
+<td>0.1490</td>
+<td>...</td>
+<td>175.317</td>
+<td>197400</td>
+<td>You like to stand on the other side\nPoint and...</td>
+<td>2002</td>
+<td>Rock</td>
+<td>0</td>
+<td>36619</td>
+<td>35.0</td>
+<td>["4YAN46l70QV0PGXlMg0iHi"]</td>
+<td>["melodic hardcore", "pop punk", "punk", "skat...</td>
+</tr>
+<tr>
+<th>3</th>
+<td>0fROT4kK5oTm8xO8PX6EJF</td>
+<td>!I'll Be Back!</td>
+<td>!I'll Be Back!</td>
+<td>["Ril\u00e8s"]</td>
+<td>0.823</td>
+<td>0.612</td>
+<td>1</td>
+<td>-7.767</td>
+<td>1</td>
+<td>0.2480</td>
+<td>...</td>
+<td>142.959</td>
+<td>178533</td>
+<td>It's been a while, shit, I missed the rehab, p...</td>
+<td>2018</td>
+<td>Hip-Hop</td>
+<td>43</td>
+<td>929303</td>
+<td>63.0</td>
+<td>["6pdcQa7by8IKuoVXvgknlI"]</td>
+<td>["french rap"]</td>
+</tr>
+<tr>
+<th>4</th>
+<td>1xBFhv5faebv3mmwxx7DnS</td>
+<td>!Lost!</td>
+<td>!Lost!</td>
+<td>["Ril\u00e8s"]</td>
+<td>0.729</td>
+<td>0.552</td>
+<td>7</td>
+<td>-8.562</td>
+<td>0</td>
+<td>0.0650</td>
+<td>...</td>
+<td>86.103</td>
+<td>186197</td>
+<td>I would like to give you all my time\nI would ...</td>
+<td>2018</td>
+<td>Hip-Hop</td>
+<td>0</td>
+<td>929303</td>
+<td>63.0</td>
+<td>["6pdcQa7by8IKuoVXvgknlI"]</td>
+<td>["french rap"]</td>
+</tr>
+</tbody>
+</table>
+<p>5 rows × 24 columns</p>
+</div>
+<div class="colab-df-buttons">
+<div class="colab-df-container">
+<button class="colab-df-convert" onclick="convertToInteractive('df-9e5a878d-ce07-4521-84c6-95b3672c7e53')" style="display:none;" title="Convert this dataframe to an interactive table.">
+<svg height="24px" viewbox="0 -960 960 960" xmlns="http://www.w3.org/2000/svg">
+<path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"></path>
+</svg>
+</button>
+<style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+<script>
+      const buttonEl =
+        document.querySelector('#df-9e5a878d-ce07-4521-84c6-95b3672c7e53 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-9e5a878d-ce07-4521-84c6-95b3672c7e53');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="GDP-Based-Recession-Indicator-(FRED)"><a href="https://fred.stlouisfed.org/series/JHDUSRGDPBR">GDP-Based Recession Indicator (FRED)</a><a class="anchor-link" href="#GDP-Based-Recession-Indicator-(FRED)">¶</a></h4><p>This dataset from the Federal Reserve Bank of St. Louis marks whether the U.S. economy was in a recession during each quarter, based solely on GDP data. It serves as our economic anchor for comparing against music trends. This dataset is central to exploring how the audio features of Billboard Hot 100 songs during recession periods compare to those during periods of economic growth.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-python"><pre><span></span><span class="c1"># Preview FRED recession indicator</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Shape:"</span><span class="p">,</span> <span class="n">fed_recession</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">fed_recession</span><span class="o">.</span><span class="n">dtypes</span><span class="p">)</span>
+<span class="n">fed_recession</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Shape: (232, 2)
+
+observation_date    object
+JHDUSRGDPBR          int64
+dtype: object
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div class="colab-df-container" id="df-e9000eed-9f22-4871-8534-e6df18d61c8a">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>observation_date</th>
+<th>JHDUSRGDPBR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>1967-10-01</td>
+<td>0</td>
+</tr>
+<tr>
+<th>1</th>
+<td>1968-01-01</td>
+<td>0</td>
+</tr>
+<tr>
+<th>2</th>
+<td>1968-04-01</td>
+<td>0</td>
+</tr>
+<tr>
+<th>3</th>
+<td>1968-07-01</td>
+<td>0</td>
+</tr>
+<tr>
+<th>4</th>
+<td>1968-10-01</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="colab-df-buttons">
+<div class="colab-df-container">
+<button class="colab-df-convert" onclick="convertToInteractive('df-e9000eed-9f22-4871-8534-e6df18d61c8a')" style="display:none;" title="Convert this dataframe to an interactive table.">
+<svg height="24px" viewbox="0 -960 960 960" xmlns="http://www.w3.org/2000/svg">
+<path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"></path>
+</svg>
+</button>
+<style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+<script>
+      const buttonEl =
+        document.querySelector('#df-e9000eed-9f22-4871-8534-e6df18d61c8a button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-e9000eed-9f22-4871-8534-e6df18d61c8a');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="EDA-(Exploratory-Data-Analysis)"><strong>EDA (Exploratory Data Analysis)</strong><a class="anchor-link" href="#EDA-(Exploratory-Data-Analysis)">¶</a></h2>
 </div>
 </div>
@@ -8390,33 +8939,7 @@ NaN count in last_week: 32312
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Let's examine how long songs typically remain on the Billboard chart</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-python"><pre><span></span><span class="n">billboard</span><span class="p">[</span><span class="s1">'weeks_on_board'</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[6]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>np.float64(9.161784620418253)</pre>
-</div>
+<h4 id="Billboard-Top-100"><a href="https://www.kaggle.com/datasets/dhruvildave/billboard-the-hot-100-songs">Billboard Top 100</a><a class="anchor-link" href="#Billboard-Top-100">¶</a></h4>
 </div>
 </div>
 </div>
@@ -8427,7 +8950,9 @@ NaN count in last_week: 32312
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Let's get a more general overview of our dataset</p>
+<ol>
+<li>Let's get a more general overview of our dataset to get a general overview of song popularity duration, we examine summary statistics for the weeks_on_board variable.</li>
+</ol>
 </div>
 </div>
 </div>
@@ -8436,7 +8961,7 @@ NaN count in last_week: 32312
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">billboard</span><span class="p">[</span><span class="s1">'weeks_on_board'</span><span class="p">]</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
@@ -8450,7 +8975,7 @@ NaN count in last_week: 32312
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8520,7 +9045,7 @@ NaN count in last_week: 32312
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Looking at this, we can deduce that half of the songs stay on the billboard for over 7 weeks.</p>
+<p>From the summary statistics, we observe that the median number of weeks a song stays on the chart is 7 weeks, meaning that half of chart entries last longer than seven weeks. The average duration is about 9.16 weeks, suggesting that while most songs remain on the chart for a relatively short period, some songs stay much longer and increase the overall mean. The maximum value of 90 weeks indicates that a small number of songs achieve exceptional long-term popularity.</p>
 </div>
 </div>
 </div>
@@ -8531,7 +9056,9 @@ NaN count in last_week: 32312
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Examining the artists who appear most frequently in the dataset helps identify musicians who consistently produce charting songs</p>
+<ol start="2">
+<li>Examining the artists who appear most frequently in the Billboard dataset helps identify musicians who consistently produce charting songs and dominate popular music trends over time.</li>
+</ol>
 </div>
 </div>
 </div>
@@ -8540,7 +9067,7 @@ NaN count in last_week: 32312
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">billboard</span><span class="p">[</span><span class="s1">'artist'</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
@@ -8554,7 +9081,7 @@ NaN count in last_week: 32312
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8636,7 +9163,20 @@ NaN count in last_week: 32312
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>We plot the distribution of weeks that songs stay on the Billboard Hot 100 chart to understand how long songs typically remain popular.</p>
+<p>We plot the distribution of weeks that songs stay on the Billboard Hot 100 chart to understand how long songs typically remain popular. This provides a baseline measure of song popularity that can later be compared across different economic periods.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<ol start="3">
+<li>We also examine how many songs reached the number one position on the Billboard Hot 100 chart to understand the frequency of chart-topping hits in the dataset</li>
+</ol>
 </div>
 </div>
 </div>
@@ -8645,7 +9185,44 @@ NaN count in last_week: 32312
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-python"><pre><span></span><span class="p">(</span><span class="n">billboard</span><span class="p">[</span><span class="s1">'peak_rank'</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>np.int64(16827)</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>We also examine how many songs reached the number one position on the Billboard Hot 100 chart to understand the frequency of chart-topping hits in the dataset. The result shows 16,827 entries with a peak rank of 1, representing major chart-topping hits in the dataset.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span><span class="mi">5</span><span class="p">))</span>
@@ -8679,7 +9256,29 @@ NaN count in last_week: 32312
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>This distribution shows that most songs remain on the chart for fewer than 15 weeks, while only a small number of songs stay for much longer periods</p>
+<p>This distribution shows that most songs remain on the chart for fewer than 15 weeks, while only a small number of songs stay for much longer periods. Understanding how long songs remain on the chart gives us a baseline for song popularity. In later stages of the project, we can examine whether song popularity duration changes during economic recessions.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Mount-Google-Drive-and-Export"><strong>Mount Google Drive and Export</strong><a class="anchor-link" href="#Mount-Google-Drive-and-Export">¶</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>The cells below are used to convert this notebook to HTML for our project</p>
 </div>
 </div>
 </div>
@@ -8688,7 +9287,7 @@ NaN count in last_week: 32312
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">google.colab</span><span class="w"> </span><span class="kn">import</span> <span class="n">drive</span>
@@ -8705,23 +9304,8 @@ NaN count in last_week: 32312
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Mounted at /content/drive
+<pre>Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount("/content/drive", force_remount=True).
 </pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-python"><pre><span></span><span class="o">%%</span><span class="n">shell</span>
-<span class="n">jupyter</span> <span class="n">nbconvert</span> <span class="o">--</span><span class="n">to</span> <span class="n">html</span> <span class="s2">"/content/drive/MyDrive/CMPS3160 Project/cmps3160.ipynb"</span>
-</pre></div>
 </div>
 </div>
 </div>
