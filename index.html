@@ -7817,7 +7817,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="About-This-Project"><strong>About This Project</strong><a class="anchor-link" href="#About-This-Project">¶</a></h3><p>Our project, “How Economic Stress Shapes Musical Taste in the United States,” analyzes periods of economic hardship alongside the musical responses of listeners, focusing on changes in genre, lyrical themes, and emotional tone. In this context, music serves not only as a form of artistic expression, but also as a reflection of a nation's social mood and cultural environment. Through this analysis, we aim to better understand how broader economic conditions may influence musical trends in the United States. Specifically, the project examines whether economic stress is associated with a shift toward more melancholic music or whether listeners prefer more energetic and optimistic songs as a form of escapism during difficult economic periods.</p>
+<h3 id="About-This-Project"><strong>About This Project</strong><a class="anchor-link" href="#About-This-Project">¶</a></h3><p>Music reflects the social and cultural mood of a nation. During periods of economic hardship, people's spending, employment, and general outlook shift dramatically. We believe this stress may be reflected in the type of music that dominates the charts. This project investigates whether economic recessions in the United States are associated with a measurable shift in the emotional tone of popular music, and whether Americans gravitate toward more melancholic or more escapist music during difficult economic periods.</p>
 </div>
 </div>
 </div>
@@ -7828,7 +7828,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Project-Datasets"><strong>Project Datasets</strong><a class="anchor-link" href="#Project-Datasets">¶</a></h3><p>The datasets we are considering are:</p>
+<h3 id="Project-Datasets"><strong>Project Datasets</strong><a class="anchor-link" href="#Project-Datasets">¶</a></h3><p>The datasets we are considering for the project are:</p>
 <p><strong>Dataset 1:</strong> Billboard Hot 100
 Source: <a href="https://www.kaggle.com/datasets/dhruvildave/billboard-the-hot-100-songs">https://www.kaggle.com/datasets/dhruvildave/billboard-the-hot-100-songs</a></p>
 <p><strong>Dataset 2:</strong> Spotify Tracks 1921-2020
@@ -7836,7 +7836,6 @@ Source: <a href="https://www.kaggle.com/datasets/yamaerenay/spotify-dataset-1921
 <p><strong>Dataset 3:</strong> GDP-Based Recession Indicator (FRED)
 Source: <a href="https://fred.stlouisfed.org/series/JHDUSRGDPBR">https://fred.stlouisfed.org/series/JHDUSRGDPBR</a></p>
 <p>The Billboard Hot 100, published weekly since 1958, records which songs were most popular in the United States at any given time. The Spotify Tracks Dataset provides audio features including valence, energy, and danceability for over 600,000 real tracks sourced from Spotify's API. The FRED recession indicator marks which quarters were classified as recessions based on GDP data, serving as our economic anchor.</p>
-<p>By combining these three datasets, we aim to answer our central question: do Americans gravitate toward sadder, lower-energy music during economic downturns? We can also explore whether certain audio features shift more than others, and whether any effect is immediate or lagged.</p>
 </div>
 </div>
 </div>
@@ -7848,6 +7847,17 @@ Source: <a href="https://fred.stlouisfed.org/series/JHDUSRGDPBR">https://fred.st
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Collaboration-Plan"><strong>Collaboration Plan</strong><a class="anchor-link" href="#Collaboration-Plan">¶</a></h3><p>The team plans to meet in-person twice a week to review progress and align on next steps. Our primary communication channel is text messaging for quick updates between meetings. Work is divided equally and tracked through a shared Google Sheets task list with assigned to-do items. All project files are stored in a shared GitHub repository, which also hosts our GitHub Pages site, and a shared Google Drive folder for any additional resources. The notebook is maintained in Google Colab, with us coordinating over text before editing to avoid conflicts.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Project-Goals"><strong>Project Goals</strong><a class="anchor-link" href="#Project-Goals">¶</a></h3><p>By combining the three datasets above, we aim to determine whether economic recessions in the United States are associated with measurable shifts in the musical characteristics of popular songs. Specifically, we want to find out whether Americans gravitate toward sadder, lower-energy music during periods of economic hardship, which audio features shift most, and whether any effect is immediate or lagged.</p>
 </div>
 </div>
 </div>
@@ -7878,7 +7888,7 @@ Source: <a href="https://fred.stlouisfed.org/series/JHDUSRGDPBR">https://fred.st
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [54]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [80]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># Core libraries</span>
