@@ -3,11 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<<<<<<< HEAD
 <title>Milestone3</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
-=======
-<title>Milestone_2</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7848,12 +7844,7 @@ they are living through and if we can use music trends as personal recession ind
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<<<<<<< HEAD
 <h3 id="Research-Questions:"><strong>Research Questions:</strong><a class="anchor-link" href="#Research-Questions:">¶</a></h3><p><strong>Primary Question:</strong> Are economic recessions in the United States associated with measurable shifts in the tone of popular music?</p>
-=======
-<h3 id="Research-Questions:"><strong>Research Questions:</strong><a class="anchor-link" href="#Research-Questions:">¶</a></h3><p><strong>Primary Question:</strong> Do economic recessions in the United States cause
-measurable shifts in the tone of popular music?</p>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
 <p><strong>Secondary Questions:</strong></p>
 <ol>
 <li>Which audio features are most sensitive to economic conditions?</li>
@@ -7964,7 +7955,7 @@ absence. The two indicators also complement each other because FRED provides the
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [49]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># Core libraries</span>
@@ -7972,10 +7963,7 @@ absence. The two indicators also complement each other because FRED provides the
 <span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">re</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">ast</span>
-<<<<<<< HEAD
 <span class="kn">from</span><span class="w"> </span><span class="nn">scipy</span><span class="w"> </span><span class="kn">import</span> <span class="n">stats</span>
-=======
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
 
 <span class="c1"># Visualization</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
@@ -8002,7 +7990,7 @@ absence. The two indicators also complement each other because FRED provides the
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [50]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># Load the datasets</span>
@@ -8043,18 +8031,10 @@ digital song sales, radio airplay, and streaming data across the United States. 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [51]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<<<<<<< HEAD
 <div class="highlight hl-python"><pre><span></span><span class="n">billboard</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-=======
-<div class="highlight hl-python"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">"Shape:"</span><span class="p">,</span> <span class="n">billboard</span><span class="o">.</span><span class="n">shape</span><span class="p">,</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Column names and dtypes:"</span><span class="p">,</span> <span class="n">billboard</span><span class="o">.</span><span class="n">dtypes</span><span class="p">,</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Null counts per column:"</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">billboard</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">())</span>
-<span class="n">billboard</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
 </pre></div>
 </div>
 </div>
@@ -8065,13 +8045,9 @@ digital song sales, radio airplay, and streaming data across the United States. 
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[51]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<<<<<<< HEAD
-<div class="colab-df-container" id="df-446cd69b-c10a-4de7-8a4c-7f0f0f76c689">
-=======
-<div class="colab-df-container" id="df-afbd1895-a94c-4576-a1b3-cc7ab18dce84">
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+<div class="colab-df-container" id="df-bfcffb00-0715-459c-850c-2295a29b38b6">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -8155,11 +8131,7 @@ digital song sales, radio airplay, and streaming data across the United States. 
 </div>
 <div class="colab-df-buttons">
 <div class="colab-df-container">
-<<<<<<< HEAD
-<button class="colab-df-convert" onclick="convertToInteractive('df-446cd69b-c10a-4de7-8a4c-7f0f0f76c689')" style="display:none;" title="Convert this dataframe to an interactive table.">
-=======
-<button class="colab-df-convert" onclick="convertToInteractive('df-afbd1895-a94c-4576-a1b3-cc7ab18dce84')" style="display:none;" title="Convert this dataframe to an interactive table.">
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+<button class="colab-df-convert" onclick="convertToInteractive('df-bfcffb00-0715-459c-850c-2295a29b38b6')" style="display:none;" title="Convert this dataframe to an interactive table.">
 <svg height="24px" viewbox="0 -960 960 960" xmlns="http://www.w3.org/2000/svg">
 <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"></path>
 </svg>
@@ -8206,20 +8178,12 @@ digital song sales, radio airplay, and streaming data across the United States. 
   </style>
 <script>
       const buttonEl =
-<<<<<<< HEAD
-        document.querySelector('#df-446cd69b-c10a-4de7-8a4c-7f0f0f76c689 button.colab-df-convert');
-=======
-        document.querySelector('#df-afbd1895-a94c-4576-a1b3-cc7ab18dce84 button.colab-df-convert');
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+        document.querySelector('#df-bfcffb00-0715-459c-850c-2295a29b38b6 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-<<<<<<< HEAD
-        const element = document.querySelector('#df-446cd69b-c10a-4de7-8a4c-7f0f0f76c689');
-=======
-        const element = document.querySelector('#df-afbd1895-a94c-4576-a1b3-cc7ab18dce84');
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+        const element = document.querySelector('#df-bfcffb00-0715-459c-850c-2295a29b38b6');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -8248,7 +8212,7 @@ digital song sales, radio airplay, and streaming data across the United States. 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [52]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">"Shape:"</span><span class="p">)</span>
@@ -8270,7 +8234,7 @@ digital song sales, radio airplay, and streaming data across the United States. 
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[52]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>(330087, 7)</pre>
 </div>
@@ -8293,7 +8257,7 @@ digital song sales, radio airplay, and streaming data across the United States. 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [53]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">billboard</span><span class="o">.</span><span class="n">dtypes</span>
@@ -8307,7 +8271,7 @@ digital song sales, radio airplay, and streaming data across the United States. 
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[53]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8382,7 +8346,7 @@ digital song sales, radio airplay, and streaming data across the United States. 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [54]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">"Null counts per column:"</span><span class="p">)</span>
@@ -8404,7 +8368,7 @@ digital song sales, radio airplay, and streaming data across the United States. 
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[54]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8498,7 +8462,7 @@ digital song sales, radio airplay, and streaming data across the United States. 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [55]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># Convert date from string to datetime</span>
@@ -8517,7 +8481,7 @@ digital song sales, radio airplay, and streaming data across the United States. 
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[55]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8584,7 +8548,7 @@ digital song sales, radio airplay, and streaming data across the United States. 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [56]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># Rename hyphen to underscore</span>
@@ -8610,7 +8574,7 @@ digital song sales, radio airplay, and streaming data across the United States. 
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[56]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8676,7 +8640,6 @@ digital song sales, radio airplay, and streaming data across the United States. 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<<<<<<< HEAD
 <p>One design choice we have decided on is to keep repeated weekly Billboard appearances rather than deduplicating songs. This means a song that remains on the chart for many weeks contributes more observations than a song that appears only once. We treat this as intentional because repeated chart appearances reflect sustained popularity and exposure. In other words, each unit of observation in this dataset (and our merged dataset later) is not a unique song, but a song-week chart appearance.</p>
 <p>However, this also means that long-running hits receive more weight in the analysis. Our results should therefore be interpreted as trends in Billboard chart exposure, not simply trends across unique songs.</p>
 </div>
@@ -8689,14 +8652,11 @@ digital song sales, radio airplay, and streaming data across the United States. 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-=======
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
 <h4 id="Spotify-Tracks-Dataset-1921-2020"><a href="https://www.kaggle.com/datasets/yamaerenay/spotify-dataset-19212020-600k-tracks">Spotify Tracks Dataset 1921-2020</a><a class="anchor-link" href="#Spotify-Tracks-Dataset-1921-2020">¶</a></h4><p>The Spotify Tracks Dataset contains audio features for over 600,000 tracks
 sourced from Spotify's API, spanning 1921 to 2020. Each row represents one
 track and includes quantitative measures of emotional tone such as valence
 (positivity), energy (intensity), danceability, and acousticness, alongside
 metadata like genre, popularity, and artist information.</p>
-<<<<<<< HEAD
 </div>
 </div>
 </div>
@@ -8708,8 +8668,6 @@ metadata like genre, popularity, and artist information.</p>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Now let's examine this dataset as we did with the billboard dataset.</p>
-=======
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
 </div>
 </div>
 </div>
@@ -8718,7 +8676,7 @@ metadata like genre, popularity, and artist information.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [57]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">songs</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -8732,13 +8690,9 @@ metadata like genre, popularity, and artist information.</p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[57]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<<<<<<< HEAD
-<div class="colab-df-container" id="df-f9a0fb24-8001-4ae7-b695-85cce08eb219">
-=======
-<div class="colab-df-container" id="df-8773eefa-283f-45c6-86f4-84af5ea3fdbc">
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+<div class="colab-df-container" id="df-394800e5-4e5b-4a60-a78c-becd702d5856">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -8907,11 +8861,7 @@ metadata like genre, popularity, and artist information.</p>
 </div>
 <div class="colab-df-buttons">
 <div class="colab-df-container">
-<<<<<<< HEAD
-<button class="colab-df-convert" onclick="convertToInteractive('df-f9a0fb24-8001-4ae7-b695-85cce08eb219')" style="display:none;" title="Convert this dataframe to an interactive table.">
-=======
-<button class="colab-df-convert" onclick="convertToInteractive('df-8773eefa-283f-45c6-86f4-84af5ea3fdbc')" style="display:none;" title="Convert this dataframe to an interactive table.">
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+<button class="colab-df-convert" onclick="convertToInteractive('df-394800e5-4e5b-4a60-a78c-becd702d5856')" style="display:none;" title="Convert this dataframe to an interactive table.">
 <svg height="24px" viewbox="0 -960 960 960" xmlns="http://www.w3.org/2000/svg">
 <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"></path>
 </svg>
@@ -8958,20 +8908,12 @@ metadata like genre, popularity, and artist information.</p>
   </style>
 <script>
       const buttonEl =
-<<<<<<< HEAD
-        document.querySelector('#df-f9a0fb24-8001-4ae7-b695-85cce08eb219 button.colab-df-convert');
-=======
-        document.querySelector('#df-8773eefa-283f-45c6-86f4-84af5ea3fdbc button.colab-df-convert');
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+        document.querySelector('#df-394800e5-4e5b-4a60-a78c-becd702d5856 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-<<<<<<< HEAD
-        const element = document.querySelector('#df-f9a0fb24-8001-4ae7-b695-85cce08eb219');
-=======
-        const element = document.querySelector('#df-8773eefa-283f-45c6-86f4-84af5ea3fdbc');
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+        const element = document.querySelector('#df-394800e5-4e5b-4a60-a78c-becd702d5856');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -8995,375 +8937,16 @@ metadata like genre, popularity, and artist information.</p>
 </div>
 </div>
 </div>
-<<<<<<< HEAD
-=======
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>The Spotify dataset is clean with no missing values in the audio feature
-columns. However, at 550,622 rows it is significantly larger than what we
-need. Many columns are not relevant to our research question as we only need
-the audio features (valence, energy, danceability, acousticness), the song
-name and artist for joining, and genre for our genre analysis.</p>
-<p>We drop all unused columns to reduce memory usage and simplify the dataset.
-We also check for duplicate songs since having multiple entries for the same
-song could introduce bias in the merge.</p>
-</div>
-</div>
-</div>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [58]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<<<<<<< HEAD
 <div class="highlight hl-python"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">"Shape:"</span><span class="p">)</span>
 <span class="n">songs</span><span class="o">.</span><span class="n">shape</span>
-=======
-<div class="highlight hl-python"><pre><span></span><span class="c1"># Drop columns not needed for analysis</span>
-<span class="n">spotify_cols_to_drop</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="s1">'id'</span><span class="p">,</span> <span class="s1">'album_name'</span><span class="p">,</span> <span class="s1">'artist_ids'</span><span class="p">,</span> <span class="s1">'niche_genres'</span><span class="p">,</span>  <span class="c1"># metadata not used</span>
-    <span class="s1">'lyrics'</span><span class="p">,</span>  <span class="c1"># no text analysis planned</span>
-    <span class="s1">'key'</span><span class="p">,</span> <span class="s1">'mode'</span><span class="p">,</span> <span class="s1">'speechiness'</span><span class="p">,</span> <span class="s1">'liveness'</span><span class="p">,</span>  <span class="c1"># audio features we don't plan to use in our analysis</span>
-    <span class="s1">'instrumentalness'</span><span class="p">,</span> <span class="s1">'loudness'</span><span class="p">,</span> <span class="s1">'tempo'</span><span class="p">,</span> <span class="s1">'duration_ms'</span>  <span class="c1"># not relevant to research question</span>
-<span class="p">]</span>
-
-<span class="n">songs</span> <span class="o">=</span> <span class="n">songs</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="n">spotify_cols_to_drop</span><span class="p">)</span>
-
-<span class="c1"># Check for duplicates on song name and artists</span>
-<span class="n">duplicates</span> <span class="o">=</span> <span class="n">songs</span><span class="o">.</span><span class="n">duplicated</span><span class="p">(</span><span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s1">'name'</span><span class="p">,</span> <span class="s1">'artists'</span><span class="p">])</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Duplicate songs: </span><span class="si">{</span><span class="n">duplicates</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-
-<span class="c1"># Verify remaining columns</span>
-<span class="nb">print</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">songs</span><span class="o">.</span><span class="n">dtypes</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Shape after cleaning: </span><span class="si">{</span><span class="n">songs</span><span class="o">.</span><span class="n">shape</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Duplicate songs: 73057
-
-name                       object
-artists                    object
-danceability              float64
-energy                    float64
-acousticness              float64
-valence                   float64
-year                        int64
-genre                      object
-popularity                  int64
-total_artist_followers      int64
-avg_artist_popularity     float64
-dtype: object
-
-Shape after cleaning: (550622, 11)
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>We find 73,057 duplicate song-artist pairs in the Spotify dataset. These
-likely represent the same song appearing multiple times under different
-albums, versions, or releases. Keeping duplicates would cause one Billboard
-song to match multiple Spotify entries during the merge, inflating our row
-count and introducing inconsistent audio features for the same song. We drop
-duplicates keeping only the first occurrence.</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-python"><pre><span></span><span class="c1"># Drop duplicate song-artist pairs, keep first occurrence</span>
-<span class="n">before</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">songs</span><span class="p">)</span>
-<span class="n">songs</span> <span class="o">=</span> <span class="n">songs</span><span class="o">.</span><span class="n">drop_duplicates</span><span class="p">(</span><span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s1">'name'</span><span class="p">,</span> <span class="s1">'artists'</span><span class="p">])</span>
-<span class="n">after</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">songs</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Shape after dropping duplicates: </span><span class="si">{</span><span class="n">songs</span><span class="o">.</span><span class="n">shape</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Duplicates removed: </span><span class="si">{</span><span class="n">before</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">after</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Shape after dropping duplicates: (477565, 11)
-Duplicates removed: 73057
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-python"><pre><span></span><span class="n">songs</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[9]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div class="colab-df-container" id="df-19c803c2-b4c0-433e-9ab3-4cfe5827e7a5">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>name</th>
-<th>artists</th>
-<th>danceability</th>
-<th>energy</th>
-<th>acousticness</th>
-<th>valence</th>
-<th>year</th>
-<th>genre</th>
-<th>popularity</th>
-<th>total_artist_followers</th>
-<th>avg_artist_popularity</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>0</th>
-<td>!</td>
-<td>["HELLYEAH"]</td>
-<td>0.415</td>
-<td>0.605</td>
-<td>0.001160</td>
-<td>0.193</td>
-<td>2016</td>
-<td>Rock</td>
-<td>0</td>
-<td>769490</td>
-<td>52.0</td>
-</tr>
-<tr>
-<th>1</th>
-<td>!!</td>
-<td>["Yxngxr1"]</td>
-<td>0.788</td>
-<td>0.648</td>
-<td>0.900000</td>
-<td>0.287</td>
-<td>2019</td>
-<td>Hip-Hop</td>
-<td>29</td>
-<td>143628</td>
-<td>45.0</td>
-</tr>
-<tr>
-<th>2</th>
-<td>!!Noble Stabbings!!</td>
-<td>["Dillinger Four"]</td>
-<td>0.171</td>
-<td>0.957</td>
-<td>0.000029</td>
-<td>0.349</td>
-<td>2002</td>
-<td>Rock</td>
-<td>0</td>
-<td>36619</td>
-<td>35.0</td>
-</tr>
-<tr>
-<th>3</th>
-<td>!I'll Be Back!</td>
-<td>["Ril\u00e8s"]</td>
-<td>0.823</td>
-<td>0.612</td>
-<td>0.168000</td>
-<td>0.688</td>
-<td>2018</td>
-<td>Hip-Hop</td>
-<td>43</td>
-<td>929303</td>
-<td>63.0</td>
-</tr>
-<tr>
-<th>4</th>
-<td>!Lost!</td>
-<td>["Ril\u00e8s"]</td>
-<td>0.729</td>
-<td>0.552</td>
-<td>0.183000</td>
-<td>0.380</td>
-<td>2018</td>
-<td>Hip-Hop</td>
-<td>0</td>
-<td>929303</td>
-<td>63.0</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="colab-df-buttons">
-<div class="colab-df-container">
-<button class="colab-df-convert" onclick="convertToInteractive('df-19c803c2-b4c0-433e-9ab3-4cfe5827e7a5')" style="display:none;" title="Convert this dataframe to an interactive table.">
-<svg height="24px" viewbox="0 -960 960 960" xmlns="http://www.w3.org/2000/svg">
-<path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"></path>
-</svg>
-</button>
-<style>
-    .colab-df-container {
-      display:flex;
-      gap: 12px;
-    }
-
-    .colab-df-convert {
-      background-color: #E8F0FE;
-      border: none;
-      border-radius: 50%;
-      cursor: pointer;
-      display: none;
-      fill: #1967D2;
-      height: 32px;
-      padding: 0 0 0 0;
-      width: 32px;
-    }
-
-    .colab-df-convert:hover {
-      background-color: #E2EBFA;
-      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
-      fill: #174EA6;
-    }
-
-    .colab-df-buttons div {
-      margin-bottom: 4px;
-    }
-
-    [theme=dark] .colab-df-convert {
-      background-color: #3B4455;
-      fill: #D2E3FC;
-    }
-
-    [theme=dark] .colab-df-convert:hover {
-      background-color: #434B5C;
-      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
-      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
-      fill: #FFFFFF;
-    }
-  </style>
-<script>
-      const buttonEl =
-        document.querySelector('#df-19c803c2-b4c0-433e-9ab3-4cfe5827e7a5 button.colab-df-convert');
-      buttonEl.style.display =
-        google.colab.kernel.accessAllowed ? 'block' : 'none';
-
-      async function convertToInteractive(key) {
-        const element = document.querySelector('#df-19c803c2-b4c0-433e-9ab3-4cfe5827e7a5');
-        const dataTable =
-          await google.colab.kernel.invokeFunction('convertToInteractive',
-                                                    [key], {});
-        if (!dataTable) return;
-
-        const docLinkHtml = 'Like what you see? Visit the ' +
-          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
-          + ' to learn more about interactive tables.';
-        element.innerHTML = '';
-        dataTable['output_type'] = 'display_data';
-        await google.colab.output.renderOutput(dataTable, element);
-        const docLink = document.createElement('div');
-        docLink.innerHTML = docLinkHtml;
-        element.appendChild(docLink);
-      }
-    </script>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="GDP-Based-Recession-Indicator-(FRED)"><a href="https://fred.stlouisfed.org/series/JHDUSRGDPBR">GDP-Based Recession Indicator (FRED)</a><a class="anchor-link" href="#GDP-Based-Recession-Indicator-(FRED)">¶</a></h4><p>The GDP-Based Recession Indicator is published quarterly by the Federal
-Reserve Bank of St. Louis. Each row represents one quarter and is labeled
-as either a recession (1) or non-recession (0) based on real GDP data. The
-indicator covers the period from 1967 onwards, giving us full coverage of
-our 1980-2020 analysis window.</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-python"><pre><span></span><span class="c1"># Preview FRED recession indicator</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Shape:"</span><span class="p">,</span> <span class="n">fed_recession</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">fed_recession</span><span class="o">.</span><span class="n">dtypes</span><span class="p">)</span>
-<span class="n">fed_recession</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
 </pre></div>
 </div>
 </div>
@@ -9381,8 +8964,7 @@ our 1980-2020 analysis window.</p>
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<<<<<<< HEAD
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[58]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>(550622, 24)</pre>
 </div>
@@ -9394,7 +8976,7 @@ our 1980-2020 analysis window.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [59]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">songs</span><span class="o">.</span><span class="n">dtypes</span>
@@ -9408,7 +8990,7 @@ our 1980-2020 analysis window.</p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[59]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -9558,7 +9140,7 @@ song could introduce bias in the merge.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [60]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># Drop columns not needed for analysis</span>
@@ -9611,7 +9193,7 @@ duplicates keeping only the first occurrence.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [61]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># Drop duplicate song-artist pairs, keep first occurrence</span>
@@ -9656,7 +9238,7 @@ Duplicates removed: 73057
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [62]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">songs</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -9670,9 +9252,9 @@ Duplicates removed: 73057
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[62]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div class="colab-df-container" id="df-b0a659a8-29ec-4164-a9de-a7ab6986625b">
+<div class="colab-df-container" id="df-0916a07f-6bc4-4391-ab09-5f025d6d3422">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -9762,7 +9344,7 @@ Duplicates removed: 73057
 </div>
 <div class="colab-df-buttons">
 <div class="colab-df-container">
-<button class="colab-df-convert" onclick="convertToInteractive('df-b0a659a8-29ec-4164-a9de-a7ab6986625b')" style="display:none;" title="Convert this dataframe to an interactive table.">
+<button class="colab-df-convert" onclick="convertToInteractive('df-0916a07f-6bc4-4391-ab09-5f025d6d3422')" style="display:none;" title="Convert this dataframe to an interactive table.">
 <svg height="24px" viewbox="0 -960 960 960" xmlns="http://www.w3.org/2000/svg">
 <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"></path>
 </svg>
@@ -9809,12 +9391,12 @@ Duplicates removed: 73057
   </style>
 <script>
       const buttonEl =
-        document.querySelector('#df-b0a659a8-29ec-4164-a9de-a7ab6986625b button.colab-df-convert');
+        document.querySelector('#df-0916a07f-6bc4-4391-ab09-5f025d6d3422 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-b0a659a8-29ec-4164-a9de-a7ab6986625b');
+        const element = document.querySelector('#df-0916a07f-6bc4-4391-ab09-5f025d6d3422');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -9843,7 +9425,7 @@ Duplicates removed: 73057
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [63]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">songs</span><span class="o">.</span><span class="n">shape</span>
@@ -9857,7 +9439,7 @@ Duplicates removed: 73057
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[63]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>(477565, 8)</pre>
 </div>
@@ -9895,7 +9477,7 @@ our 1980-2020 analysis window.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [64]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># Preview FRED recession indicator</span>
@@ -9910,14 +9492,9 @@ our 1980-2020 analysis window.</p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[64]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div class="colab-df-container" id="df-83961711-3b5a-4a16-9a7d-09c60f54d869">
-=======
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div class="colab-df-container" id="df-42d963bd-1647-463b-a28e-3764427934a9">
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+<div class="colab-df-container" id="df-03175bda-8740-49a7-90be-218a751bc7c1">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -9971,11 +9548,7 @@ our 1980-2020 analysis window.</p>
 </div>
 <div class="colab-df-buttons">
 <div class="colab-df-container">
-<<<<<<< HEAD
-<button class="colab-df-convert" onclick="convertToInteractive('df-83961711-3b5a-4a16-9a7d-09c60f54d869')" style="display:none;" title="Convert this dataframe to an interactive table.">
-=======
-<button class="colab-df-convert" onclick="convertToInteractive('df-42d963bd-1647-463b-a28e-3764427934a9')" style="display:none;" title="Convert this dataframe to an interactive table.">
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+<button class="colab-df-convert" onclick="convertToInteractive('df-03175bda-8740-49a7-90be-218a751bc7c1')" style="display:none;" title="Convert this dataframe to an interactive table.">
 <svg height="24px" viewbox="0 -960 960 960" xmlns="http://www.w3.org/2000/svg">
 <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"></path>
 </svg>
@@ -10022,17 +9595,12 @@ our 1980-2020 analysis window.</p>
   </style>
 <script>
       const buttonEl =
-<<<<<<< HEAD
-        document.querySelector('#df-83961711-3b5a-4a16-9a7d-09c60f54d869 button.colab-df-convert');
-=======
-        document.querySelector('#df-42d963bd-1647-463b-a28e-3764427934a9 button.colab-df-convert');
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+        document.querySelector('#df-03175bda-8740-49a7-90be-218a751bc7c1 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-<<<<<<< HEAD
-        const element = document.querySelector('#df-83961711-3b5a-4a16-9a7d-09c60f54d869');
+        const element = document.querySelector('#df-03175bda-8740-49a7-90be-218a751bc7c1');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -10061,7 +9629,7 @@ our 1980-2020 analysis window.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [65]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">fed_recession</span><span class="o">.</span><span class="n">shape</span>
@@ -10075,7 +9643,7 @@ our 1980-2020 analysis window.</p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[65]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>(232, 2)</pre>
 </div>
@@ -10098,7 +9666,7 @@ our 1980-2020 analysis window.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [66]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">fed_recession</span><span class="o">.</span><span class="n">dtypes</span>
@@ -10112,7 +9680,7 @@ our 1980-2020 analysis window.</p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[66]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -10179,7 +9747,7 @@ us to label each song-week observation as occurring during a recession or not.</
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [67]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># convert FRED date</span>
@@ -10207,9 +9775,9 @@ us to label each song-week observation as occurring during a recession or not.</
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[67]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div class="colab-df-container" id="df-7b511f53-7877-40ca-a165-45f67d2d4fff">
+<div class="colab-df-container" id="df-4a04b000-ee47-4b08-87f2-16fe45762c4c">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -10281,7 +9849,7 @@ us to label each song-week observation as occurring during a recession or not.</
 </div>
 <div class="colab-df-buttons">
 <div class="colab-df-container">
-<button class="colab-df-convert" onclick="convertToInteractive('df-7b511f53-7877-40ca-a165-45f67d2d4fff')" style="display:none;" title="Convert this dataframe to an interactive table.">
+<button class="colab-df-convert" onclick="convertToInteractive('df-4a04b000-ee47-4b08-87f2-16fe45762c4c')" style="display:none;" title="Convert this dataframe to an interactive table.">
 <svg height="24px" viewbox="0 -960 960 960" xmlns="http://www.w3.org/2000/svg">
 <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"></path>
 </svg>
@@ -10328,15 +9896,12 @@ us to label each song-week observation as occurring during a recession or not.</
   </style>
 <script>
       const buttonEl =
-        document.querySelector('#df-7b511f53-7877-40ca-a165-45f67d2d4fff button.colab-df-convert');
+        document.querySelector('#df-4a04b000-ee47-4b08-87f2-16fe45762c4c button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-7b511f53-7877-40ca-a165-45f67d2d4fff');
-=======
-        const element = document.querySelector('#df-42d963bd-1647-463b-a28e-3764427934a9');
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+        const element = document.querySelector('#df-4a04b000-ee47-4b08-87f2-16fe45762c4c');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -10367,7 +9932,6 @@ us to label each song-week observation as occurring during a recession or not.</
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<<<<<<< HEAD
 <h4 id="Real-time-Sahm-Rule-Recession-Indicator"><a href="https://fred.stlouisfed.org/series/SAHMREALTIME">Real-time Sahm Rule Recession Indicator</a><a class="anchor-link" href="#Real-time-Sahm-Rule-Recession-Indicator">¶</a></h4><p>The Real-Time Sahm Rule Recession Indicator is also published by the Federal
 Reserve Bank of St. Louis. Unlike the binary FRED indicator, it provides a
 continuous monthly measure of economic stress based on changes in the
@@ -10384,21 +9948,6 @@ a recession with high accuracy.</p>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Let's look at the dataset.</p>
-=======
-<p>The GDP-Based Recession Indicator is published quarterly by the Federal
-Reserve Bank of St. Louis. Each row represents one quarter and is labeled
-as either a recession (1) or non-recession (0) based on real GDP data. The
-indicator covers the period from 1967 onwards, giving us full coverage of
-our 1980-2020 analysis window.</p>
-<p>This dataset requires minimal cleaning. The second column is named
-JHDUSRGDPBR, which is the Federal Reserve's internal series code and is not
-human-readable. We rename it to "recession" for clarity. Since the Billboard
-data is weekly and the recession indicator is quarterly, we cannot join them
-directly on date. Instead, we derive a year-quarter key (e.g. "2008-Q3")
-from both datasets and join on that key. This maps every weekly Billboard
-chart appearance to the recession status of the quarter it falls in, allowing
-us to label each song-week observation as occurring during a recession or not.</p>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
 </div>
 </div>
 </div>
@@ -10407,31 +9956,10 @@ us to label each song-week observation as occurring during a recession or not.</
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<<<<<<< HEAD
-<div class="jp-InputPrompt jp-InputArea-prompt">In [68]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">sahm</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-=======
-<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-python"><pre><span></span><span class="c1"># convert FRED date</span>
-<span class="n">fed_recession</span><span class="p">[</span><span class="s1">'observation_date'</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">fed_recession</span><span class="p">[</span><span class="s1">'observation_date'</span><span class="p">])</span>
-
-<span class="c1"># derive year + quarter</span>
-<span class="n">fed_recession</span><span class="p">[</span><span class="s1">'year'</span><span class="p">]</span> <span class="o">=</span> <span class="n">fed_recession</span><span class="p">[</span><span class="s1">'observation_date'</span><span class="p">]</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">year</span>
-<span class="n">fed_recession</span><span class="p">[</span><span class="s1">'quarter'</span><span class="p">]</span> <span class="o">=</span> <span class="n">fed_recession</span><span class="p">[</span><span class="s1">'observation_date'</span><span class="p">]</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">quarter</span>
-
-<span class="n">fed_recession</span><span class="p">[</span><span class="s1">'year_quarter'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span>
-    <span class="n">fed_recession</span><span class="p">[</span><span class="s1">'year'</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span> <span class="o">+</span> <span class="s1">'-Q'</span> <span class="o">+</span> <span class="n">fed_recession</span><span class="p">[</span><span class="s1">'quarter'</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span>
-<span class="p">)</span>
-
-<span class="c1"># rename recession column</span>
-<span class="n">fed_recession</span> <span class="o">=</span> <span class="n">fed_recession</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s1">'JHDUSRGDPBR'</span><span class="p">:</span> <span class="s1">'recession'</span><span class="p">})</span>
-
-<span class="n">fed_recession</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
 </pre></div>
 </div>
 </div>
@@ -10442,214 +9970,9 @@ us to label each song-week observation as occurring during a recession or not.</
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<<<<<<< HEAD
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[68]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div class="colab-df-container" id="df-fa30214b-9869-4b08-81ee-dad8c5f06d53">
-=======
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div class="colab-df-container" id="df-5dd36db3-7cf7-4054-a3bc-32dedb79881c">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>observation_date</th>
-<th>recession</th>
-<th>year</th>
-<th>quarter</th>
-<th>year_quarter</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>0</th>
-<td>1967-10-01</td>
-<td>0</td>
-<td>1967</td>
-<td>4</td>
-<td>1967-Q4</td>
-</tr>
-<tr>
-<th>1</th>
-<td>1968-01-01</td>
-<td>0</td>
-<td>1968</td>
-<td>1</td>
-<td>1968-Q1</td>
-</tr>
-<tr>
-<th>2</th>
-<td>1968-04-01</td>
-<td>0</td>
-<td>1968</td>
-<td>2</td>
-<td>1968-Q2</td>
-</tr>
-<tr>
-<th>3</th>
-<td>1968-07-01</td>
-<td>0</td>
-<td>1968</td>
-<td>3</td>
-<td>1968-Q3</td>
-</tr>
-<tr>
-<th>4</th>
-<td>1968-10-01</td>
-<td>0</td>
-<td>1968</td>
-<td>4</td>
-<td>1968-Q4</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="colab-df-buttons">
-<div class="colab-df-container">
-<button class="colab-df-convert" onclick="convertToInteractive('df-5dd36db3-7cf7-4054-a3bc-32dedb79881c')" style="display:none;" title="Convert this dataframe to an interactive table.">
-<svg height="24px" viewbox="0 -960 960 960" xmlns="http://www.w3.org/2000/svg">
-<path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"></path>
-</svg>
-</button>
-<style>
-    .colab-df-container {
-      display:flex;
-      gap: 12px;
-    }
-
-    .colab-df-convert {
-      background-color: #E8F0FE;
-      border: none;
-      border-radius: 50%;
-      cursor: pointer;
-      display: none;
-      fill: #1967D2;
-      height: 32px;
-      padding: 0 0 0 0;
-      width: 32px;
-    }
-
-    .colab-df-convert:hover {
-      background-color: #E2EBFA;
-      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
-      fill: #174EA6;
-    }
-
-    .colab-df-buttons div {
-      margin-bottom: 4px;
-    }
-
-    [theme=dark] .colab-df-convert {
-      background-color: #3B4455;
-      fill: #D2E3FC;
-    }
-
-    [theme=dark] .colab-df-convert:hover {
-      background-color: #434B5C;
-      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
-      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
-      fill: #FFFFFF;
-    }
-  </style>
-<script>
-      const buttonEl =
-        document.querySelector('#df-5dd36db3-7cf7-4054-a3bc-32dedb79881c button.colab-df-convert');
-      buttonEl.style.display =
-        google.colab.kernel.accessAllowed ? 'block' : 'none';
-
-      async function convertToInteractive(key) {
-        const element = document.querySelector('#df-5dd36db3-7cf7-4054-a3bc-32dedb79881c');
-        const dataTable =
-          await google.colab.kernel.invokeFunction('convertToInteractive',
-                                                    [key], {});
-        if (!dataTable) return;
-
-        const docLinkHtml = 'Like what you see? Visit the ' +
-          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
-          + ' to learn more about interactive tables.';
-        element.innerHTML = '';
-        dataTable['output_type'] = 'display_data';
-        await google.colab.output.renderOutput(dataTable, element);
-        const docLink = document.createElement('div');
-        docLink.innerHTML = docLinkHtml;
-        element.appendChild(docLink);
-      }
-    </script>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Real-time-Sahm-Rule-Recession-Indicator"><a href="https://fred.stlouisfed.org/series/SAHMREALTIME">Real-time Sahm Rule Recession Indicator</a><a class="anchor-link" href="#Real-time-Sahm-Rule-Recession-Indicator">¶</a></h4><p>The Real-Time Sahm Rule Recession Indicator is also published by the Federal
-Reserve Bank of St. Louis. Unlike the binary FRED indicator, it provides a
-continuous monthly measure of economic stress based on changes in the
-unemployment rate. A value above 0.5 has historically signaled the start of
-a recession with high accuracy.</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-python"><pre><span></span><span class="c1"># Preview Sahm Rule Recession Indicator</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Shape:"</span><span class="p">,</span> <span class="n">sahm</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">sahm</span><span class="o">.</span><span class="n">dtypes</span><span class="p">)</span>
-<span class="n">sahm</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Shape: (796, 2)
-
-observation_date     object
-SAHMREALTIME        float64
-dtype: object
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[12]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div class="colab-df-container" id="df-a3cbe891-77c2-438f-98f0-5c70cdeea96a">
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+<div class="colab-df-container" id="df-781b1f28-f4dd-4a36-8d81-77dc28066597">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -10703,11 +10026,7 @@ dtype: object
 </div>
 <div class="colab-df-buttons">
 <div class="colab-df-container">
-<<<<<<< HEAD
-<button class="colab-df-convert" onclick="convertToInteractive('df-fa30214b-9869-4b08-81ee-dad8c5f06d53')" style="display:none;" title="Convert this dataframe to an interactive table.">
-=======
-<button class="colab-df-convert" onclick="convertToInteractive('df-a3cbe891-77c2-438f-98f0-5c70cdeea96a')" style="display:none;" title="Convert this dataframe to an interactive table.">
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+<button class="colab-df-convert" onclick="convertToInteractive('df-781b1f28-f4dd-4a36-8d81-77dc28066597')" style="display:none;" title="Convert this dataframe to an interactive table.">
 <svg height="24px" viewbox="0 -960 960 960" xmlns="http://www.w3.org/2000/svg">
 <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"></path>
 </svg>
@@ -10754,20 +10073,12 @@ dtype: object
   </style>
 <script>
       const buttonEl =
-<<<<<<< HEAD
-        document.querySelector('#df-fa30214b-9869-4b08-81ee-dad8c5f06d53 button.colab-df-convert');
-=======
-        document.querySelector('#df-a3cbe891-77c2-438f-98f0-5c70cdeea96a button.colab-df-convert');
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+        document.querySelector('#df-781b1f28-f4dd-4a36-8d81-77dc28066597 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-<<<<<<< HEAD
-        const element = document.querySelector('#df-fa30214b-9869-4b08-81ee-dad8c5f06d53');
-=======
-        const element = document.querySelector('#df-a3cbe891-77c2-438f-98f0-5c70cdeea96a');
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+        const element = document.querySelector('#df-781b1f28-f4dd-4a36-8d81-77dc28066597');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -10791,13 +10102,12 @@ dtype: object
 </div>
 </div>
 </div>
-<<<<<<< HEAD
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [69]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">sahm</span><span class="o">.</span><span class="n">dtypes</span>
@@ -10811,7 +10121,7 @@ dtype: object
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[69]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -10850,8 +10160,6 @@ dtype: object
 </div>
 </div>
 </div>
-=======
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -10859,21 +10167,11 @@ dtype: object
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<<<<<<< HEAD
 <p>The dataset contains 796 observations with two columns: <code>observation_date</code> and SAHMREALTIME. The <code>SAHMREALTIME</code> column
 is the Federal Reserve's internal series code so we will rename it to "sahm" for better clarity. <code>observation_date</code> is also currently stored as an object and needs to be converted to datetime64 before we can process it.</p>
 <p>Since the Billboard data is weekly and Sahm is monthly, we will derive a
 year-month key (e.g. "2008-09") from both datasets and join on that key.
 This will map every weekly Billboard chart appearance to the economic stress
-=======
-<p>The dataset contains 796 observations with two columns: observation_date and SAHMREALTIME. The SAHMREALTIME column
-is the Federal Reserve's internal series code so we rename it to "sahm" for
-clarity. observation_date is currently stored as an object and needs to be converted to
-datetime64 before we can process it.</p>
-<p>Since the Billboard data is weekly and Sahm is monthly, we derive a
-year-month key (e.g. "2008-09") from both datasets and join on that key.
-This maps every weekly Billboard chart appearance to the economic stress
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
 level of the month it falls in.</p>
 </div>
 </div>
@@ -10883,11 +10181,7 @@ level of the month it falls in.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<<<<<<< HEAD
-<div class="jp-InputPrompt jp-InputArea-prompt">In [70]:</div>
-=======
-<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># Convert observation_date to datetime</span>
@@ -10924,15 +10218,9 @@ dtype: object
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<<<<<<< HEAD
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[70]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div class="colab-df-container" id="df-b2de5b76-04a1-4c08-a9e1-bd6ee08db2a9">
-=======
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[13]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div class="colab-df-container" id="df-9fb06a22-773b-4b1e-bed0-457dea7d7b56">
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+<div class="colab-df-container" id="df-a55140b1-15c1-4f67-9563-e97b3e5f1dae">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -10992,11 +10280,7 @@ dtype: object
 </div>
 <div class="colab-df-buttons">
 <div class="colab-df-container">
-<<<<<<< HEAD
-<button class="colab-df-convert" onclick="convertToInteractive('df-b2de5b76-04a1-4c08-a9e1-bd6ee08db2a9')" style="display:none;" title="Convert this dataframe to an interactive table.">
-=======
-<button class="colab-df-convert" onclick="convertToInteractive('df-9fb06a22-773b-4b1e-bed0-457dea7d7b56')" style="display:none;" title="Convert this dataframe to an interactive table.">
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+<button class="colab-df-convert" onclick="convertToInteractive('df-a55140b1-15c1-4f67-9563-e97b3e5f1dae')" style="display:none;" title="Convert this dataframe to an interactive table.">
 <svg height="24px" viewbox="0 -960 960 960" xmlns="http://www.w3.org/2000/svg">
 <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"></path>
 </svg>
@@ -11043,20 +10327,12 @@ dtype: object
   </style>
 <script>
       const buttonEl =
-<<<<<<< HEAD
-        document.querySelector('#df-b2de5b76-04a1-4c08-a9e1-bd6ee08db2a9 button.colab-df-convert');
-=======
-        document.querySelector('#df-9fb06a22-773b-4b1e-bed0-457dea7d7b56 button.colab-df-convert');
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+        document.querySelector('#df-a55140b1-15c1-4f67-9563-e97b3e5f1dae button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-<<<<<<< HEAD
-        const element = document.querySelector('#df-b2de5b76-04a1-4c08-a9e1-bd6ee08db2a9');
-=======
-        const element = document.querySelector('#df-9fb06a22-773b-4b1e-bed0-457dea7d7b56');
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+        const element = document.querySelector('#df-a55140b1-15c1-4f67-9563-e97b3e5f1dae');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -11116,11 +10392,7 @@ that contain "feat." or "featuring." phrases before cleaning.</li>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<<<<<<< HEAD
-<div class="jp-InputPrompt jp-InputArea-prompt">In [71]:</div>
-=======
-<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># clean_str: this function normalizes text for matching by lowercasing and removing</span>
@@ -11172,15 +10444,9 @@ that contain "feat." or "featuring." phrases before cleaning.</li>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<<<<<<< HEAD
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[71]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div class="colab-df-container" id="df-f1967c20-08f5-4c13-abb9-a60ac13ebcb6">
-=======
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[14]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div class="colab-df-container" id="df-4519a8bb-2a9b-4e27-b7e3-d30a7c59ecc6">
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+<div class="colab-df-container" id="df-1c935c15-4930-4cd3-bfa9-5a0ed66f05f0">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -11216,12 +10482,6 @@ that contain "feat." or "featuring." phrases before cleaning.</li>
 <th>valence</th>
 <th>year</th>
 <th>genre</th>
-<<<<<<< HEAD
-=======
-<th>popularity</th>
-<th>total_artist_followers</th>
-<th>avg_artist_popularity</th>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
 </tr>
 </thead>
 <tbody>
@@ -11244,12 +10504,6 @@ that contain "feat." or "featuring." phrases before cleaning.</li>
 <td>0.130</td>
 <td>2021.0</td>
 <td>Pop</td>
-<<<<<<< HEAD
-=======
-<td>79.0</td>
-<td>67751201.0</td>
-<td>85.0</td>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
 </tr>
 <tr>
 <th>1</th>
@@ -11270,12 +10524,6 @@ that contain "feat." or "featuring." phrases before cleaning.</li>
 <td>NaN</td>
 <td>NaN</td>
 <td>NaN</td>
-<<<<<<< HEAD
-=======
-<td>NaN</td>
-<td>NaN</td>
-<td>NaN</td>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
 </tr>
 <tr>
 <th>2</th>
@@ -11296,12 +10544,6 @@ that contain "feat." or "featuring." phrases before cleaning.</li>
 <td>NaN</td>
 <td>NaN</td>
 <td>NaN</td>
-<<<<<<< HEAD
-=======
-<td>NaN</td>
-<td>NaN</td>
-<td>NaN</td>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
 </tr>
 <tr>
 <th>3</th>
@@ -11322,12 +10564,6 @@ that contain "feat." or "featuring." phrases before cleaning.</li>
 <td>0.843</td>
 <td>2021.0</td>
 <td>Country</td>
-<<<<<<< HEAD
-=======
-<td>45.0</td>
-<td>743312.0</td>
-<td>61.0</td>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
 </tr>
 <tr>
 <th>4</th>
@@ -11348,23 +10584,13 @@ that contain "feat." or "featuring." phrases before cleaning.</li>
 <td>0.537</td>
 <td>2021.0</td>
 <td>Pop</td>
-<<<<<<< HEAD
-=======
-<td>82.0</td>
-<td>123790754.0</td>
-<td>90.0</td>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
 </tr>
 </tbody>
 </table>
 </div>
 <div class="colab-df-buttons">
 <div class="colab-df-container">
-<<<<<<< HEAD
-<button class="colab-df-convert" onclick="convertToInteractive('df-f1967c20-08f5-4c13-abb9-a60ac13ebcb6')" style="display:none;" title="Convert this dataframe to an interactive table.">
-=======
-<button class="colab-df-convert" onclick="convertToInteractive('df-4519a8bb-2a9b-4e27-b7e3-d30a7c59ecc6')" style="display:none;" title="Convert this dataframe to an interactive table.">
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+<button class="colab-df-convert" onclick="convertToInteractive('df-1c935c15-4930-4cd3-bfa9-5a0ed66f05f0')" style="display:none;" title="Convert this dataframe to an interactive table.">
 <svg height="24px" viewbox="0 -960 960 960" xmlns="http://www.w3.org/2000/svg">
 <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"></path>
 </svg>
@@ -11411,20 +10637,12 @@ that contain "feat." or "featuring." phrases before cleaning.</li>
   </style>
 <script>
       const buttonEl =
-<<<<<<< HEAD
-        document.querySelector('#df-f1967c20-08f5-4c13-abb9-a60ac13ebcb6 button.colab-df-convert');
-=======
-        document.querySelector('#df-4519a8bb-2a9b-4e27-b7e3-d30a7c59ecc6 button.colab-df-convert');
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+        document.querySelector('#df-1c935c15-4930-4cd3-bfa9-5a0ed66f05f0 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-<<<<<<< HEAD
-        const element = document.querySelector('#df-f1967c20-08f5-4c13-abb9-a60ac13ebcb6');
-=======
-        const element = document.querySelector('#df-4519a8bb-2a9b-4e27-b7e3-d30a7c59ecc6');
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+        const element = document.querySelector('#df-1c935c15-4930-4cd3-bfa9-5a0ed66f05f0');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -11464,11 +10682,7 @@ that contain "feat." or "featuring." phrases before cleaning.</li>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<<<<<<< HEAD
-<div class="jp-InputPrompt jp-InputArea-prompt">In [72]:</div>
-=======
-<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># Match rate: valence is NaN only when no Spotify match was found</span>
@@ -11523,11 +10737,7 @@ Matched songs: 153501 / 341724
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<<<<<<< HEAD
-<div class="jp-InputPrompt jp-InputArea-prompt">In [73]:</div>
-=======
-<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">merged</span><span class="p">[</span><span class="s1">'decade'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">merged</span><span class="p">[</span><span class="s1">'date'</span><span class="p">])</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">year</span> <span class="o">//</span> <span class="mi">10</span><span class="p">)</span> <span class="o">*</span> <span class="mi">10</span>
@@ -11568,13 +10778,9 @@ Name: valence, dtype: float64
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Coverage rates vary substantially across decades, ranging from 32.9% in the 1960s to 54.8% in the 2000s. Earlier decades before 1980 generally have weaker match rates, falling between 33% and 43%.</p>
-<<<<<<< HEAD
 <p>The Spotify match rate is 44.9%, meaning that slightly less than half of all Billboard weekly chart observations were successfully matched to Spotify audio features. This is an important limitation of the project. Unmatched songs may differ systematically from matched songs because older tracks, songs with complex artist names, remixes, featured artists, punctuation differences, or songs unavailable in the Spotify dataset are less likely to match successfully.</p>
 <p>Because match coverage varies by decade, our final dataset should not be interpreted as the full Billboard Hot 100 population. Instead, our findings apply to the subset of Billboard chart appearances that could be matched to Spotify audio features. This may bias results toward more easily matched, Spotify-represented songs.</p>
 <p>Throughout the examined Billboard data, the 1980–2020 period shows stronger and more stable coverage, with rates between 39.7% and 54.8%. For this reason, the 1980–2020 time window is more reliable and will be the primary focus of later analysis.</p>
-=======
-<p>By contrast, the 1980–2020 period shows stronger and more stable coverage, with rates between 39.7% and 54.8%. For this reason, the 1980–2020 time window is more reliable and will be the primary focus of later analysis.</p>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
 </div>
 </div>
 </div>
@@ -11583,11 +10789,7 @@ Name: valence, dtype: float64
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<<<<<<< HEAD
-<div class="jp-InputPrompt jp-InputArea-prompt">In [74]:</div>
-=======
-<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">merged</span><span class="p">[</span><span class="s1">'year'</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">merged</span><span class="p">[</span><span class="s1">'date'</span><span class="p">])</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">year</span> <span class="c1"># extract year</span>
@@ -11648,11 +10850,7 @@ than the full population of Billboard hits.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<<<<<<< HEAD
-<div class="jp-InputPrompt jp-InputArea-prompt">In [75]:</div>
-=======
-<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">merged</span><span class="p">[</span><span class="s1">'quarter'</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">merged</span><span class="p">[</span><span class="s1">'date'</span><span class="p">])</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">quarter</span> <span class="c1"># extract quarter (1–4)</span>
@@ -11669,15 +10867,9 @@ than the full population of Billboard hits.</p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<<<<<<< HEAD
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[75]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div class="colab-df-container" id="df-4ce958db-27c1-4857-83bd-058859373ad1">
-=======
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[18]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div class="colab-df-container" id="df-af69896d-8ffd-4142-9704-c7a6dff13670">
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+<div class="colab-df-container" id="df-7dab0b75-a0cc-493b-ad5d-dcc045ac5380">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -11731,11 +10923,7 @@ than the full population of Billboard hits.</p>
 </div>
 <div class="colab-df-buttons">
 <div class="colab-df-container">
-<<<<<<< HEAD
-<button class="colab-df-convert" onclick="convertToInteractive('df-4ce958db-27c1-4857-83bd-058859373ad1')" style="display:none;" title="Convert this dataframe to an interactive table.">
-=======
-<button class="colab-df-convert" onclick="convertToInteractive('df-af69896d-8ffd-4142-9704-c7a6dff13670')" style="display:none;" title="Convert this dataframe to an interactive table.">
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+<button class="colab-df-convert" onclick="convertToInteractive('df-7dab0b75-a0cc-493b-ad5d-dcc045ac5380')" style="display:none;" title="Convert this dataframe to an interactive table.">
 <svg height="24px" viewbox="0 -960 960 960" xmlns="http://www.w3.org/2000/svg">
 <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"></path>
 </svg>
@@ -11782,20 +10970,12 @@ than the full population of Billboard hits.</p>
   </style>
 <script>
       const buttonEl =
-<<<<<<< HEAD
-        document.querySelector('#df-4ce958db-27c1-4857-83bd-058859373ad1 button.colab-df-convert');
-=======
-        document.querySelector('#df-af69896d-8ffd-4142-9704-c7a6dff13670 button.colab-df-convert');
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+        document.querySelector('#df-7dab0b75-a0cc-493b-ad5d-dcc045ac5380 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-<<<<<<< HEAD
-        const element = document.querySelector('#df-4ce958db-27c1-4857-83bd-058859373ad1');
-=======
-        const element = document.querySelector('#df-af69896d-8ffd-4142-9704-c7a6dff13670');
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+        const element = document.querySelector('#df-7dab0b75-a0cc-493b-ad5d-dcc045ac5380');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -11835,11 +11015,7 @@ than the full population of Billboard hits.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<<<<<<< HEAD
-<div class="jp-InputPrompt jp-InputArea-prompt">In [76]:</div>
-=======
-<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># JOIN recession indicator first to create final</span>
@@ -11934,11 +11110,7 @@ We start by counting the genres present in our dataset to understand the overall
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<<<<<<< HEAD
-<div class="jp-InputPrompt jp-InputArea-prompt">In [77]:</div>
-=======
-<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">final</span><span class="p">[</span><span class="s1">'genre'</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">())</span>
@@ -11987,11 +11159,7 @@ Name: count, dtype: int64
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<<<<<<< HEAD
-<div class="jp-InputPrompt jp-InputArea-prompt">In [78]:</div>
-=======
-<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># Group small genres into Other</span>
@@ -12018,11 +11186,7 @@ Name: count, dtype: int64
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<<<<<<< HEAD
-<div class="jp-InputPrompt jp-InputArea-prompt">In [79]:</div>
-=======
-<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># Count chart appearances for each genre-recession combination,</span>
@@ -12088,11 +11252,7 @@ That said, these numbers are an aggregate across all recessions from 1980 to 202
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<<<<<<< HEAD
-<div class="jp-InputPrompt jp-InputArea-prompt">In [80]:</div>
-=======
-<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># Compute mean audio features for each genre</span>
@@ -12150,11 +11310,7 @@ This sets up our next question: do we actually see a measurable difference in au
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<<<<<<< HEAD
-<div class="jp-InputPrompt jp-InputArea-prompt">In [81]:</div>
-=======
-<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># Define features to plot and their corresponding colors</span>
@@ -12233,11 +11389,7 @@ This sets up our next question: do we actually see a measurable difference in au
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<<<<<<< HEAD
-<div class="jp-InputPrompt jp-InputArea-prompt">In [82]:</div>
-=======
-<div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># Define features to plot and their corresponding colors</span>
@@ -12355,11 +11507,7 @@ Acousticness dropped sharply around 1982 and stayed low, which reflects the shif
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<<<<<<< HEAD
-<div class="jp-InputPrompt jp-InputArea-prompt">In [83]:</div>
-=======
-<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># Select audio features and both economic indicators for correlation analysis</span>
@@ -12428,11 +11576,7 @@ However, we believe that this does not necessarily mean recessions have no effec
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<<<<<<< HEAD
-<div class="jp-InputPrompt jp-InputArea-prompt">In [84]:</div>
-=======
-<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># Compute mean, median, and standard deviation of each audio feature</span>
@@ -12475,11 +11619,7 @@ Recession  0.146        0.201  0.107  0.228
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<<<<<<< HEAD
 <p>Across all four features, the differences between normal and recession periods are small. Energy and danceability are slightly lower during recessions, while acousticness is slightly higher. Valence is nearly unchanged, with only a very small increase during recession periods. The standard deviations are large relative to the differences in means, which suggests high variability within each group and reinforces what we saw in the boxplots.</p>
-=======
-<p>Across all four features, the differences between normal and recession periods are small. Valence and energy are slightly lower during recessions, while acousticness is slightly higher. The standard deviations are large relative to the differences in means, which suggests high variability within each group and reinforces what we saw in the boxplots.</p>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
 </div>
 </div>
 </div>
@@ -12490,11 +11630,7 @@ Recession  0.146        0.201  0.107  0.228
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<<<<<<< HEAD
 <h2 id="Building-A-Hypothesis-Testing-Model"><strong>Building A Hypothesis Testing Model</strong><a class="anchor-link" href="#Building-A-Hypothesis-Testing-Model">¶</a></h2><h3 id="Why-Hypothesis-Testing?"><strong>Why Hypothesis Testing?</strong><a class="anchor-link" href="#Why-Hypothesis-Testing?">¶</a></h3><p>We use two-sample z-tests to answer this question with one test per audio feature. Because our dataset has ~99,000 observations, the Central Limit Theorem guarantees the sampling distribution of the mean is normal, so we can use the standard normal distribution (with z-score). The z-test is the right tool here because our goal is inference (checking whether a relationship exists) rather than prediction.</p>
-=======
-<h2 id="Next-Steps"><strong>Next Steps</strong><a class="anchor-link" href="#Next-Steps">¶</a></h2>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
 </div>
 </div>
 </div>
@@ -12505,7 +11641,6 @@ Recession  0.146        0.201  0.107  0.228
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<<<<<<< HEAD
 <h3 id="Our-Hypotheses">Our Hypotheses<a class="anchor-link" href="#Our-Hypotheses">¶</a></h3><p>Before running any test, we define what we are testing. For each audio feature:</p>
 <ul>
 <li><strong>$H_0$ (Null Hypothesis):</strong> The mean is the <strong>same</strong> during recession and non-recession periods</li>
@@ -12565,23 +11700,11 @@ This condition is fulfilled because recession is defined using a binary indicato
 </div>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-=======
-<p>Our EDA shows that while genre distribution shifts during recessions and valence and energy dip slightly at recession starts, the overall differences in audio features between recession and normal periods are small and likely confounded by long-term trends. Simple correlation is near zero across all features and both economic indicators. This motivates us to move beyond descriptive analysis and apply formal statistical and predictive models to test whether a recession signal exists in the data. We have two ideas for what to build next.</p>
-<p><strong>Model Idea 1:</strong> Independent Samples T-Test</p>
-<p>We will conduct an independent samples t-test to determine whether valence differs significantly between recession and non-recession periods. Valence is our dependent variable and recession status is our independent variable. This tests whether the small difference in valence we observed is statistically meaningful or just due to chance.</p>
-<p><strong>Model Idea 2:</strong> Classification Model</p>
-<p>We can also build a classification model to predict whether a song was released during a recession based on its audio features. The independent variables are valence, energy, danceability, and acousticness, and the dependent variable is recession status. A classifier can detect patterns across multiple features simultaneously, which may reveal a recession signal that our simple correlation matrix might have missed.</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<<<<<<< HEAD
-<div class="jp-InputPrompt jp-InputArea-prompt">In [85]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">recession_group</span> <span class="o">=</span> <span class="n">final</span><span class="p">[</span><span class="n">final</span><span class="p">[</span><span class="s1">'recession'</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">]</span>
@@ -12641,7 +11764,7 @@ Recession observations: 15,249
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [86]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># Audio features we're testing, each getting their own z-test</span>
@@ -12750,7 +11873,7 @@ acousticness          0.1710          0.2013       0.0303     15.388     1.96e-5
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [87]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">fig</span><span class="p">,</span> <span class="n">axes</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">18</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
@@ -12878,87 +12001,8 @@ acousticness          0.1710          0.2013       0.0303     15.388     1.96e-5
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [88]:</div>
-=======
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-python"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">google.colab</span><span class="w"> </span><span class="kn">import</span> <span class="n">drive</span>
-<span class="n">drive</span><span class="o">.</span><span class="n">mount</span><span class="p">(</span><span class="s1">'/content/drive'</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<<<<<<< HEAD
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount("/content/drive", force_remount=True).
 </pre>
 </div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-=======
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<<<<<<< HEAD
-<div class="jp-InputPrompt jp-InputArea-prompt">In [89]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-python"><pre><span></span><span class="o">%%</span><span class="n">shell</span>
-<span class="n">jupyter</span> <span class="n">nbconvert</span> <span class="o">--</span><span class="n">to</span> <span class="n">html</span> <span class="s1">'/content/drive/MyDrive/CMPS3160 Project/Milestone3'</span>
-=======
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-python"><pre><span></span><span class="o">%%</span><span class="n">shell</span>
-<span class="n">jupyter</span> <span class="n">nbconvert</span> <span class="o">--</span><span class="n">to</span> <span class="n">html</span> <span class="s2">"/content/drive/MyDrive/Milestone_2.ipynb"</span>
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<<<<<<< HEAD
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>[NbConvertApp] Converting notebook /content/drive/MyDrive/CMPS3160 Project/Milestone3 to html
-[NbConvertApp] Writing 449307 bytes to /content/drive/MyDrive/CMPS3160 Project/Milestone.html
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[89]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre></pre>
-</div>
-</div>
-</div>
-</div>
-=======
->>>>>>> 7f4505edd4ad3c12e81339d3762d9fbd8817b4b6
 </div>
 </main>
 </body>
